@@ -4,7 +4,7 @@ const { send } = require('../network/response')
 
 const general = (err, req, res, next) => {
   let DEFAULT_HTTP_ERROR = 500
-  const { name, message, stack } = err
+  const {  message, stack } = err
   const rsp = {
     success: false,
     message: config.env === 'development' ? message : defaultBy.ERROR_MESSAGE
@@ -15,8 +15,6 @@ const general = (err, req, res, next) => {
   } else {
     console.log('ErrorHandler: ', err)
   }
-
-  if (name === 'ServiceUnavailableError') DEFAULT_HTTP_ERROR = 200
 
   return send({
     req,
