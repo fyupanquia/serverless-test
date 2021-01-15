@@ -1,0 +1,422 @@
+{
+	"info": {
+		"_postman_id": "1a83dee1-711d-4c0b-a114-3edf21729043",
+		"name": "START WARS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SW.SPECIES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/sw/species/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"sw",
+						"species",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "SW.SPECIES",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/sw/species/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"sw",
+								"species",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2122"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"84a-TAgXmuVPfyiaTyNsBDCeYdHiRr0\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jan 2021 05:36:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"nombre\": \"Human\",\n    \"clasificación\": \"mammal\",\n    \"designación\": \"sentient\",\n    \"altura_media\": \"180\",\n    \"colores_de_piel\": \"caucasian, black, asian, hispanic\",\n    \"color_de_cabello\": \"blonde, brown, black, red\",\n    \"color_de_ojo\": \"brown, blue, green, hazel, grey, amber\",\n    \"promedio_de_vida\": \"120\",\n    \"mundo_natal\": \"https://swapi.py4e.com/api/planets/9/\",\n    \"lenguaje\": \"Galactic Basic\",\n    \"personas\": [\n        \"https://swapi.py4e.com/api/people/1/\",\n        \"https://swapi.py4e.com/api/people/4/\",\n        \"https://swapi.py4e.com/api/people/5/\",\n        \"https://swapi.py4e.com/api/people/6/\",\n        \"https://swapi.py4e.com/api/people/7/\",\n        \"https://swapi.py4e.com/api/people/9/\",\n        \"https://swapi.py4e.com/api/people/10/\",\n        \"https://swapi.py4e.com/api/people/11/\",\n        \"https://swapi.py4e.com/api/people/12/\",\n        \"https://swapi.py4e.com/api/people/14/\",\n        \"https://swapi.py4e.com/api/people/18/\",\n        \"https://swapi.py4e.com/api/people/21/\",\n        \"https://swapi.py4e.com/api/people/22/\",\n        \"https://swapi.py4e.com/api/people/25/\",\n        \"https://swapi.py4e.com/api/people/26/\",\n        \"https://swapi.py4e.com/api/people/28/\",\n        \"https://swapi.py4e.com/api/people/29/\",\n        \"https://swapi.py4e.com/api/people/32/\",\n        \"https://swapi.py4e.com/api/people/34/\",\n        \"https://swapi.py4e.com/api/people/35/\",\n        \"https://swapi.py4e.com/api/people/39/\",\n        \"https://swapi.py4e.com/api/people/42/\",\n        \"https://swapi.py4e.com/api/people/43/\",\n        \"https://swapi.py4e.com/api/people/51/\",\n        \"https://swapi.py4e.com/api/people/62/\",\n        \"https://swapi.py4e.com/api/people/66/\",\n        \"https://swapi.py4e.com/api/people/67/\",\n        \"https://swapi.py4e.com/api/people/68/\",\n        \"https://swapi.py4e.com/api/people/69/\",\n        \"https://swapi.py4e.com/api/people/74/\",\n        \"https://swapi.py4e.com/api/people/81/\",\n        \"https://swapi.py4e.com/api/people/84/\",\n        \"https://swapi.py4e.com/api/people/85/\",\n        \"https://swapi.py4e.com/api/people/86/\",\n        \"https://swapi.py4e.com/api/people/88/\"\n    ],\n    \"películas\": [\n        \"https://swapi.py4e.com/api/films/1/\",\n        \"https://swapi.py4e.com/api/films/2/\",\n        \"https://swapi.py4e.com/api/films/3/\",\n        \"https://swapi.py4e.com/api/films/4/\",\n        \"https://swapi.py4e.com/api/films/5/\",\n        \"https://swapi.py4e.com/api/films/6/\",\n        \"https://swapi.py4e.com/api/films/7/\"\n    ],\n    \"creado\": \"2014-12-10T13:52:11.567000Z\",\n    \"editado\": \"2014-12-20T21:36:42.136000Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "SW.PLANETS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/sw/planets/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"sw",
+						"planets",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "SW.PLANETS",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/sw/planets/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"sw",
+								"planets",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "887"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"377-ITRU/jUPSaizz/NqplEctxweI/U\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jan 2021 05:36:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"nombre\": \"Tatooine\",\n    \"periodo_rotación\": \"23\",\n    \"periodo_orbital\": \"304\",\n    \"diámetro\": \"10465\",\n    \"clima\": \"arid\",\n    \"gravedad\": \"1 standard\",\n    \"terreno\": \"desert\",\n    \"superficie_de_agua\": \"1\",\n    \"población\": \"200000\",\n    \"residentes\": [\n        \"https://swapi.py4e.com/api/people/1/\",\n        \"https://swapi.py4e.com/api/people/2/\",\n        \"https://swapi.py4e.com/api/people/4/\",\n        \"https://swapi.py4e.com/api/people/6/\",\n        \"https://swapi.py4e.com/api/people/7/\",\n        \"https://swapi.py4e.com/api/people/8/\",\n        \"https://swapi.py4e.com/api/people/9/\",\n        \"https://swapi.py4e.com/api/people/11/\",\n        \"https://swapi.py4e.com/api/people/43/\",\n        \"https://swapi.py4e.com/api/people/62/\"\n    ],\n    \"películas\": [\n        \"https://swapi.py4e.com/api/films/1/\",\n        \"https://swapi.py4e.com/api/films/3/\",\n        \"https://swapi.py4e.com/api/films/4/\",\n        \"https://swapi.py4e.com/api/films/5/\",\n        \"https://swapi.py4e.com/api/films/6/\"\n    ],\n    \"creado\": \"2014-12-09T13:50:49.641000Z\",\n    \"editado\": \"2014-12-20T20:58:18.411000Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "U.CREATE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Frank\",\r\n    \"last_name\":\"Yupanqui Allcca\",\r\n    \"age\":\"25\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/u",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"u"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "U.CREATE",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Frank\",\r\n    \"last_name\":\"Yupanqui Allcca\",\r\n    \"age\":\"25\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/u",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"u"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "45"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2d-tjWuXq9qgkWyQR0doeF9Uqm4eCI\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jan 2021 05:29:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"a270425d-a7b4-4758-aabf-f67bb4176650\"\n}"
+				}
+			]
+		},
+		{
+			"name": "U.LIST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/u/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"u",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "a270425d-a7b4-4758-aabf-f67bb4176650"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "U.LIST",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/u/:id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"u",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "a270425d-a7b4-4758-aabf-f67bb4176650"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3c-bFQVciPSjaXTmkYgcNKbKKyo5AA\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 15 Jan 2021 05:29:53 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"nombre\": \"Frank\",\n    \"apellidos\": \"Yupanqui Allcca\",\n    \"edad\": \"25\"\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
